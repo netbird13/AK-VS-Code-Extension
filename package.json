@@ -2,7 +2,7 @@
 	"name": "vscode-ak-snippets",
 	"displayName": "VSCode AK Snippets",
 	"description": "Snippets Boilerplate Visual Studio Code",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "AviKoplovich",
 	"author": {
 		"name": "Avi Koplovich",

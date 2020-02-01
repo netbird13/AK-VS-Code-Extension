@@ -13,39 +13,40 @@
 	// 	"description": "Log output to console"
 	// }
 	"import HTTP module": {
-		"prefix": "ak-import-HTTP",
+		"prefix": "AK-import-HTTP",
 		"body": "import {HttpClientModule} from '@angular/common/http';",
-		"description": "Insert the HTTP module to app.module.ts"
+		"description": "inset the HTTP module to app.module.ts"
 	},
 	"import Form module": {
-		"prefix": "ak-import-Forms",
+		"prefix": "AK-import-Forms",
 		"body": "import {FormsModule}from '@angular/forms';",
-		"description": "Insert the Forms module to app.module.ts"
+		"description": "inset the Forms module to app.module.ts"
 	},
 
 	"import Ng module": {
-		"prefix": "ak-import-NG",
+		"prefix": "AK-import-NG",
 		"body": "import { NgModule } from '@angular/core';",
 		"description": "insert the NG module to app.module.ts"
 	},
 
 	"import Routing Module": {
-		"prefix": "ak-import-Routing",
+		"prefix": "AK-import-Routing",
 		"body": "import { AppRoutingModule } from './app-routing.module';",
-		"description": "insert the Routing module to app.module.ts"
+		"description": "inset the Routing module to app.module.ts"
 	},
 	"import Component": {
-		"prefix": "ak-import-Component",
+		"prefix": "AK-import-Component",
 		"body": "import {$1Component } from './components/$1/$1.component';",
-		"description": "insert a Component to app.module.ts"
+		"description": "inset a Component to app.module.ts"
 	},
 	"Routes paths": {
-		"prefix": "ak-Routes-Paths",
+		"prefix": "AK-Routes-Paths",
 		"body": [
 			"{path:\"$1\",component:$1Component},",
 			"{path:\"\",redirectTo:\"$1\",pathMatch:\"full\"}",
 			"{path:\"**\",redirectTo:\"$1\",pathMatch:\"full\"}",
 		],
-		"description": "insert some minimum paths to app-routing.module.ts"
+		"description": "inset some minimum paths to app-routing.module.ts"
 	}
+
 }
