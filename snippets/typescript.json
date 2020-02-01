@@ -1,0 +1,52 @@
+{
+	// Place your snippets for typescript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"import HTTP module": {
+		"prefix": "ak-import-HTTP",
+		"body": "import {HttpClientModule} from '@angular/common/http';",
+		"description": "Insert the HTTP module to app.module.ts"
+	},
+	"import Form module": {
+		"prefix": "ak-import-Forms",
+		"body": "import {FormsModule}from '@angular/forms';",
+		"description": "Insert the Forms module to app.module.ts"
+	},
+
+	"import Ng module": {
+		"prefix": "AK-import-NG",
+		"body": "import { NgModule } from '@angular/core';",
+		"description": "insert the NG module to app.module.ts"
+	},
+
+	"import Routing Module": {
+		"prefix": "AK-import-Routing",
+		"body": "import { AppRoutingModule } from './app-routing.module';",
+		"description": "inset the Routing module to app.module.ts"
+	},
+	"import Component": {
+		"prefix": "AK-import-Component",
+		"body": "import {$1Component } from './components/$1/$1.component';",
+		"description": "inset a Component to app.module.ts"
+	},
+	"Routes paths": {
+		"prefix": "AK-Routes-Paths",
+		"body": [
+			"{path:\"$1\",component:$1Component},",
+			"{path:\"\",redirectTo:\"$1\",pathMatch:\"full\"}",
+			"{path:\"**\",redirectTo:\"$1\",pathMatch:\"full\"}",
+		],
+		"description": "inset some minimum paths to app-routing.module.ts"
+	}
+
+}

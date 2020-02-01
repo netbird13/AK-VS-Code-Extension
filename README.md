@@ -15,25 +15,26 @@ Type "ak-" for generating optional snippets, press `enter`, and the snippet unfo
 
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to activate snippets from within the editor.
 
-### TypeScript Snippets
-
-| Snippet              | Purpose                                             |
-| -------------------- | --------------------------------------------------- |
-| `ak-html-loading`    | lodaing gif format with conditional `ngif`          |
-| `ks-html-table`      | `<table>` implementation with `ngFor`               |
-
-
 ### HTML Snippets
 
-| Snippet              | Purpose                                             |
-| -------------------- | --------------------------------------------------- |
-| `ks-html-loading`    | lodaing gif format with conditional `ngif`          |
-| `ks-html-table`      | `<table>` implementation with `ngFor`               |
+| Snippet              | Purpose                                             						   |
+| -------------------- | ----------------------------------------------------------------------------- |
+| `ak-navbar`		   | Create navbar with router-link and piped time          					   |
+| `ak-app-component`   | Adds header with navbar and main with router-outlet to app.component.html     |
+
+
+### TypeScript Snippets
+
+| Snippet              | Purpose                                             						   |
+| -------------------- | ----------------------------------------------------------------------------- |
+| `ak-import-HTTP`     | Insert the HTTP module to app.module.ts             						   |
+| `ak-import-Forms`    | Insert the Forms module to app.module.ts            						   |
+| `ak-import-Forms`    | Insert the Forms module to app.module.ts            						   |
 
 ### CSS Snippets
 
-| Snippet              | Purpose                                             |
-| -------------------- | --------------------------------------------------- |
+| Snippet              | Purpose                                             						   |
+| -------------------- | ----------------------------------------------------------------------------- |
 | `ks-html-loading`    | lodaing gif format with conditional `ngif`          |
 | `ks-html-table`      | `<table>` implementation with `ngFor`               |
 ## Installation
