@@ -1,0 +1,64 @@
+{
+	"name": "vscode-ak-snippets",
+	"displayName": "VSCode AK Snippets",
+	"description": "Snippets Boilerplate Visual Studio Code",
+	"version": "0.0.1",
+	"publisher": "AviKoplovich",
+	"author": {
+		"name": "Avi Koplovich",
+		"email": "avi.koplovich@gmail.com"
+	},
+	"homepage": "https://github.com/netbird13/AK-VS-Code-Extension",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/netbird13/AK-VS-Code-Extension.git"
+	},
+	"bugs": {
+		"url": "https://github.com/netbird13/AK-VS-Code-Extension.git/issues"
+	},
+	"engines": {
+		"vscode": "^1.41.1"
+	},
+	"keywords": [
+		"avi",
+		"koplovich",
+		"netbird",
+		"vscode",
+		"snippet",
+		"boilerplate"
+	],
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#f66f62",
+		"theme": "dark"
+	},
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "css",
+				"path": "./snippets/css.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/ts.json"
+			}
+		]
+	},
+	"scripts": {
+		"package": "npx vsce package",
+		"publish": "npx vsce publish"
+	},
+	"__metadata": {
+		"id": "f7ae582e-77d0-49b1-bd09-9d16907f9487",
+		"publisherId": "c20cc6fb-04b0-4200-94b1-435e860c4a76",
+		"publisherDisplayName": "Avi Koplovich"
+	}
+}
