@@ -44,7 +44,7 @@
 		"body": [
 			"{path:\"$1\",component:$1Component},",
 			"{path:\"\",redirectTo:\"$1\",pathMatch:\"full\"}",
-			"{path:\"**\",redirectTo:\"$1\",pathMatch:\"full\"}",
+			"{path:\"**\",redirectTo:\"$1\",pathMatch:\"full\"}"
 		],
 		"description": "insert some minimum paths to app-routing.module.ts"
 	}
