@@ -24,29 +24,29 @@
 	},
 
 	"import Ng module": {
-		"prefix": "AK-import-NG",
+		"prefix": "ak-import-NG",
 		"body": "import { NgModule } from '@angular/core';",
 		"description": "insert the NG module to app.module.ts"
 	},
 
 	"import Routing Module": {
-		"prefix": "AK-import-Routing",
+		"prefix": "ak-import-Routing",
 		"body": "import { AppRoutingModule } from './app-routing.module';",
-		"description": "inset the Routing module to app.module.ts"
+		"description": "insert the Routing module to app.module.ts"
 	},
 	"import Component": {
-		"prefix": "AK-import-Component",
+		"prefix": "ak-import-Component",
 		"body": "import {$1Component } from './components/$1/$1.component';",
-		"description": "inset a Component to app.module.ts"
+		"description": "insert a Component to app.module.ts"
 	},
 	"Routes paths": {
-		"prefix": "AK-Routes-Paths",
+		"prefix": "ak-Routes-Paths",
 		"body": [
 			"{path:\"$1\",component:$1Component},",
 			"{path:\"\",redirectTo:\"$1\",pathMatch:\"full\"}",
 			"{path:\"**\",redirectTo:\"$1\",pathMatch:\"full\"}",
 		],
-		"description": "inset some minimum paths to app-routing.module.ts"
+		"description": "insert some minimum paths to app-routing.module.ts"
 	}
 
 }

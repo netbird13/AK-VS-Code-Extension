@@ -13,13 +13,13 @@
 	// 	"description": "Log output to console"
 	// }
 	"simple navbar css": {
-		"prefix": "AK-NAV",
+		"prefix": "ak-nav",
 		"body": [
 			"nav{",
 			"text-align: center;",
 			"glyph-orientation-vertical: auto;",
 			"background-color: #dee2ea;}"
 		],
-		"description": "simple navbar css"
+		"description": "A simple navbar css"
 	}
 }

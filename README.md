@@ -29,14 +29,19 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 | -------------------- | ----------------------------------------------------------------------------- |
 | `ak-import-HTTP`     | Insert the HTTP module to app.module.ts             						   |
 | `ak-import-Forms`    | Insert the Forms module to app.module.ts            						   |
-| `ak-import-Forms`    | Insert the Forms module to app.module.ts            						   |
+| `ak-import-NG`       | insert the NG module to app.module.ts	            						   |
+| `ak-import-Routing`  | inset the Routing module to app.module.ts            						   |
+| `ak-import-Component`| insert a Component to app.module.ts	            						   |
+| `ak-Routes-Paths`	   | insert some minimum paths to app-routing.module.ts							   |
+
 
 ### CSS Snippets
 
 | Snippet              | Purpose                                             						   |
 | -------------------- | ----------------------------------------------------------------------------- |
-| `ks-html-loading`    | lodaing gif format with conditional `ngif`          |
-| `ks-html-table`      | `<table>` implementation with `ngFor`               |
+| `ak-nav`    		   | A simple navbar css												           |
+
+
 ## Installation
 
 1. Install Visual Studio Code 1.41 or higher
