@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "ksSnippets" extension will be documented in this file.
 
+## [0.0.4]
+- Bug fixes.
+
 ## [0.0.3]
 - Bug fixes.
 
