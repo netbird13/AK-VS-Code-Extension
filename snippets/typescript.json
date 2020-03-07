@@ -1,9 +1,10 @@
-{
+{	
 	"import HTTP module": {
 		"prefix": "ak-import-HTTP",
 		"body": "import {HttpClientModule} from '@angular/common/http';",
 		"description": "Insert the HTTP module to app.module.ts"
 	},
+	
 	"import Form module": {
 		"prefix": "ak-import-Forms",
 		"body": "import {FormsModule}from '@angular/forms';",
@@ -21,11 +22,13 @@
 		"body": "import { AppRoutingModule } from './app-routing.module';",
 		"description": "insert the Routing module to app.module.ts"
 	},
+
 	"import Component": {
 		"prefix": "ak-import-Component",
 		"body": "import {$1Component } from './components/$1/$1.component';",
-		"description": "insert a Component to app.module.ts"
+		"description": "insert a Component to app.module.ts"		
 	},
+
 	"Routes paths": {
 		"prefix": "ak-Routes-Paths",
 		"body": [
